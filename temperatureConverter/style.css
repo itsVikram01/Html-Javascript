@@ -1,0 +1,40 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+body{
+    background-color: lightskyblue;
+    width: auto;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+form{
+    background-color: snow;
+    height: 50vh;
+    width: auto;
+    text-align: center;
+}
+#tempCalc label{
+    font-size: 30px;
+}
+#tempInput{
+    height: 10vh;
+    width: 50vh;
+    margin-top: 20px;
+}
+#tempType{
+    height: 10vh;
+    width: 25vh;
+    margin-top: 20px;
+}
+#submit{
+    height: 10vh;
+    width: 25vh;
+    margin-top: 20px;
+}
+#tempCalc span{
+    font-size: 30px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <label for="tempInput">Please enter Temperature you'd like to convert</label><br/>
+        <input type="number" name="tempInput" id="tempInput" value="0">
+
+        <select name="tempType" id="tempType">
+            <option value="celc">°Celcius</option>
+            <option value="fahr">°Fahrenheit</option>
+        </select>
+
+        <input type="submit" name="temp" id="submit"><br/>
+
+        <span id="resultContainer"></span>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
